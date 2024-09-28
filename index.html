@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            background-color: rgb(231, 229, 229);
+            color: white;
+        }
+
+        .container
+        {
+            width: 80%;
+            margin: 10px 0px 0px 114px;
+        }
+        .header-row{
+            
+            display: grid;            
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 300px;
+            gap: 24px;
+            
+        }
+        .grid-items{
+            border: 2px solid rgb(254, 249, 249);
+            border-radius: 50px;
+            box-shadow: 2px 2px 5px black;   
+        }
+
+        .header-img{
+            margin: 0px 0px 0px -14px;
+            height: 230px;
+            width: 250px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .inside-grid-item{
+            height: 230px;
+            width: 250px;
+            margin: 12px 0px 0px 33px;
+            border: 20px solid rgba(3, 3, 3, 0);
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /*.grid-main1>.grid-items{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 50px;
+           
+        }*/
+        .main
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 400px;
+            gap: 20px;
+        }
+        .grid-items1{
+            border: 2px solid rgb(253, 251, 251);
+            margin: 20px 0px ;  
+            background-color: rgb(48, 231, 231);
+            box-shadow: 2px 2px 5px black;    
+            
+        }
+
+        .main-image{
+            height: 100px ;
+            width: 100px;
+            margin: 8px 0px 0px 65px;
+            border-radius: 50%;
+            
+        }
+    .para-name{
+        text-align: center;
+        font-weight: 900;
+    }
+        .para-address{
+           margin: 20px;
+           font-family: serif;
+        }
+
+        .user-mail{
+            margin-left: 40px;
+        }
+
+        .grid-para{
+            margin: 16px;
+            text-align: justify;
+            color: black;
+        }
+
+       p{
+        color: black;
+       }
+
+       
+    </style>
+
+</head>
+<body>
+    <div class="grid-container">
+    <div class="container">
+        <div class="header-row">
+            <div class="grid-items" style="background-color: pink;">
+                <p class="grid-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel provident dignissimos laudantium tenetur deserunt dicta, ex veritatis sapiente officia iure maiores quod mollitia ducimus! Aspernatur est excepturi voluptas? Consequatur fugit et numquam? Quidem magni ipsa id debitis, sunt tempore modi nihil, iusto eum quaerat harum cumque, cum ducimus ex voluptatibus libero eos excepturi. Exercitationem, id numquam obcaecati provident minus iusto velit, mollitia amet temporibus accusamus quasi reiciendis? Reprehenderit eos labore pariatur ab alias autem natus veritatis aut nemo, a consectetur dicta aperiam, explicabo tempora officia delectus non eveniet aspernatur quidem. Harum ipsum voluptates debitis adipisci, repudiandae tenetur vitae architecto nihil est exercitationem odit rem error, corrupti quam nobis! Quos quam et, impedit aperiam dolor autem explicabo ipsa ex tenetur nihil molestiae molestias, ab dicta repudiandae aliquid dolore amet voluptatum qui magni? Quas nihil quos error suscipit, ex iure dolorum odit repellat soluta quo aliquam reiciendis laboriosam distinctio quasi aut. Ea, distinctio fugit tenetur tempora architecto, deserunt facere optio quisquam illum sint ab! Nostrum nemo esse non numquam quis doloribus aliquid eveniet praesentium rerum explicabo illum, ipsa earum impedit 
+                </p>
+            </div>
+            <div class="grid-items" style="background-color: rgb(249, 229, 203);">
+                <div class="inside-grid-item">
+                    <img src="/Photos/pexels-pixabay-158063.jpg" alt="" class="header-img">
+                </div>                
+            </div>           
+        </div>
+        <div class="main">                
+            <div class="grid-items1"><img src="/Photos/pexels-pixabay-147411.jpg" alt="" class="main-image">
+                <div class="paragraph">
+
+                    <p class="para-name">Shadow</p> 
+                    <p class="para-address">1/2 Street colombia, north-west, Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, pariatur.</p>      
+                    <p class="para-address">-----------------------------------</p>
+                    <p class="para-address user-mail">username@gmail.com</p>
+                </div>
+            </div>  
+            
+            
+            <div class="grid-items1"><img src="/Photos\pexels-pixabay-147411.jpg" alt="" class="main-image">
+                <div class="paragraph">
+
+                    <p class="para-name">Shadow</p> 
+                    <p class="para-address">1/2 Street colombia, north-west, Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, pariatur.</p>      
+                    <p class="para-address">-----------------------------------</p>
+                    <p class="para-address user-mail">username@gmail.com</p>
+                </div></div>
+            <div class="grid-items1"><img src="/Photos\pexels-pixabay-147411.jpg" alt="" class="main-image">
+                <div class="paragraph">
+
+                    <p class="para-name">Shadow</p> 
+                    <p class="para-address">1/2 Street colombia, north-west, Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, pariatur.</p>      
+                    <p class="para-address">-----------------------------------</p>
+                    <p class="para-address user-mail">username@gmail.com</p>
+                </div></div>
+            <div class="grid-items1"><img src="/Photos\pexels-pixabay-147411.jpg" alt="" class="main-image">
+                <div class="paragraph">
+
+                    <p class="para-name">Shadow</p> 
+                    <p class="para-address">1/2 Street colombia, north-west, Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, pariatur.</p>      
+                    <p class="para-address">-----------------------------------</p>
+                    <p class="para-address user-mail">username@gmail.com</p>
+                </div></div>
+        </div>
+        
+
+    </div>
+</div>
+   
+</body>
+</html>
